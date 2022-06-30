@@ -1,0 +1,24 @@
+{
+  "name": "expressdayonedeliverable",
+  "version": "1.0.0",
+  "description": "<h1><img src=\"https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png\" alt=\"\" style=\"max-width:100%;\" /></h1>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon Server.js",
+    "start-dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/mmengi18/expressDayOneDeliverable.git"
+  },
+  "author": "Mahider Mengiste",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "kill-port": "^2.0.1",
+    "nodemon": "^2.0.18"
+  }
+}
